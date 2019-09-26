@@ -1,0 +1,15 @@
+#!/bin/bash
+echo installing nodejs...
+sudo apt-get install nodejs
+echo nodejs installed
+sleep 5s
+
+echo installing npm
+sudo apt-get install npm
+echo npm installed....
+sleep 5s
+
+echo installing Prettier
+npm install --save-dev --save-exact prettier
+npm install --global prettier
+echo Prettier installed....
