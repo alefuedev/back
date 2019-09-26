@@ -10,7 +10,6 @@ alias rg="ranger"
 alias cxterm="vim ~/.Xresources"
 alias cdunst="vim ~/.config/dunst/dunstrc"
 
-alias off="shutdown now"
 alias ls="ls -a"
 alias tb="taskbook"
 alias off="shutdown now"
