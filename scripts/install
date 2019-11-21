@@ -38,8 +38,6 @@ sudo apt-get install tty-clock
 
 sudo snap install taskbook
 
-sudo apt-get install xbacklight
-
 sudo apt-get install mpv 
 
 sudo apt-get install clamav 
