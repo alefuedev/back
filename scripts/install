@@ -1,94 +1,59 @@
 #!/bin/bash
 
 echo Getting ready!
+
 sudo apt-get update
 sudo apt-get upgrade
 sleep 5s
 
-echo installing vim....
-sudo apt-get install vim  
-echo vim  installed...
-sleep 5s
+sudo apt-get install vim 
 
-echo installing git....
+echo installing vimplug
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
 sudo apt-get install git
-echo git installed
-sleep 5s
 
-echo install curl
 sudo apt-get install curl
-echo curl was installed...
-sleep 5s
 
-echo installing i3-blocks...
-sleep 5s
 sudo apt-get install i3blocks
-echo i3-blocks installed...
-sleep 5s
 
-echo installing rofi....
-sleep 5s
 sudo apt-get install rofi
-echo rofi installed...
-sleep 5s
 
-echo installing compton
-sleep 5s
 sudo apt-get install compton
-echo compton installed..
-sleep 5s
 
-echo installing dunst
 sudo apt-get install dunst
-echo dunst installed...
-sleep 5s
 
-echo installing feh
 sudo apt-get install feh
-echo feh installed...
-sleep 5s
 
-echo installing cmus
 sudo apt-get install cmus
-echo cmus installed...
-sleep 5s
 
-echo installing arandr
 sudo apt-get install arandr
-echo arandr installed...
-sleep 5s
 
-echo intalling urxvt..
-sudo apt-get install rxvt-unicode
-echo urxvt installed....
+sudo apt-get install rxvt-unicodsude
 
-echo intalling exiftool..
 sudo apt-get install exiftool
-echo exiftool installed....
-sleep 5s
 
-echo intalling tty-clock..
 sudo apt-get install tty-clock 
-echo tty-clock installed....
-sleep 5s
 
-echo installing taskbook...
 sudo snap install taskbook
-echo taskbook installed....
 
-echo installing xbacklight...
 sudo apt-get install xbacklight
-echo xbacklight installed....
 
-echo installing mpv...
 sudo apt-get install mpv 
-echo mpv installed....
 
-echo installing clamav...
 sudo apt-get install clamav 
-echo clamav installed....
 
-echo installing clamtk...
 sudo apt-get install clamtk 
-echo clamtk installed....
 
+sudo apt-get install neofetch
+
+sudo apt-get install ranger
+
+sudo apt-get install nodejs
+
+sudo apt-get install npm
+
+sudo npm install -g create-react-app
+
+sudo npm install -g prettier
