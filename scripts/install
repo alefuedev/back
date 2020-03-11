@@ -45,8 +45,6 @@ sudo apt-get install ranger
 
 sudo apt-get install zsh
 
-sudo apt-get install xbacklight
-
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 sudo apt-get install fonts-powerline
@@ -62,10 +60,13 @@ sudo npm install -g prettier
 echo speedRicer ppa
 sudo add-apt-repository -y ppa:kgilmer/speed-ricer
 
+echo regolith ppa
+sudo add-apt-repository ppa:regolith-linux/release
+
 sudo apt-get update
 
-echo installing i3-gaps
-sudo apt-get install i3-gaps
+echo installing regolith 
+sudo apt install regolith-desktop
 
 echo installing polybar
 sudo apt-get install polybar
