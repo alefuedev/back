@@ -4,6 +4,7 @@ echo Getting ready!
 
 sudo apt-get update
 sudo apt-get upgrade
+
 sleep 5s
 
 sudo apt-get install vim 
@@ -12,11 +13,7 @@ echo installing vimplug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-sudo apt-get install git
-
 sudo apt-get install curl
-
-sudo apt-get install i3blocks
 
 sudo apt-get install rofi
 
@@ -29,8 +26,6 @@ sudo apt-get install feh
 sudo apt-get install cmus
 
 sudo apt-get install arandr
-
-sudo apt-get install rxvt-unicodsude
 
 sudo apt-get install exiftool
 
@@ -62,4 +57,18 @@ sudo npm install -g create-react-app
 
 sudo npm install -g prettier
 
+echo speedRicer ppa
+sudo add-apt-repository -y ppa:kgilmer/speed-ricer
 
+sudo apt-get update
+
+echo installing i3-gaps
+sudo apt-get install i3-gaps
+
+echo installing polybar
+sudo apt-get install polybar
+
+echo isntalling pywal
+sudo apt-get install pywal
+
+echo Done!!
