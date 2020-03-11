@@ -71,4 +71,5 @@ sudo apt-get install polybar
 echo isntalling pywal
 sudo apt-get install pywal
 
+echo Dont forget to run ranger --copy-config=all then add config files
 echo Done!!
