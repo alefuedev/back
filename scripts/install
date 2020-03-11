@@ -45,6 +45,8 @@ sudo apt-get install ranger
 
 sudo apt-get install zsh
 
+sudo apt-get install xbacklight
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 sudo apt-get install fonts-powerline
@@ -72,4 +74,5 @@ echo isntalling pywal
 sudo apt-get install pywal
 
 echo Dont forget to run ranger --copy-config=all then add config files
+echo Dont forget to reboot
 echo Done!!
